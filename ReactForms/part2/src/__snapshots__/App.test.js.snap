@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <div
+      class="boxList"
+    >
+      <h1>
+        Todo List
+      </h1>
+      <div
+        class="todoForm"
+      >
+        <form>
+          <div>
+            <label
+              for="task"
+            >
+              Task: 
+            </label>
+            <input
+              class="task"
+              name="task"
+              placeholder="Enter your task"
+              type="text"
+              value=""
+            />
+          </div>
+          <button
+            class="subBtn"
+          >
+            Add!
+          </button>
+        </form>
+      </div>
+      <div
+        class="item"
+      >
+        <p
+          class="task"
+        >
+          you can delete the task by pushing the X
+        </p>
+        <button
+          class="delBtn"
+        >
+          X
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`NewTodoForm renders 1`] = `
+<DocumentFragment>
+  <div
+    class="todoForm"
+  >
+    <form>
+      <div>
+        <label
+          for="task"
+        >
+          Task: 
+        </label>
+        <input
+          class="task"
+          name="task"
+          placeholder="Enter your task"
+          type="text"
+          value=""
+        />
+      </div>
+      <button
+        class="subBtn"
+      >
+        Add!
+      </button>
+    </form>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Todo renders 1`] = `
+<DocumentFragment>
+  <div
+    class="item"
+  >
+    <p
+      class="task"
+    />
+    <button
+      class="delBtn"
+    >
+      X
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TodoList renders 1`] = `
+<DocumentFragment>
+  <div
+    class="boxList"
+  >
+    <h1>
+      Todo List
+    </h1>
+    <div
+      class="todoForm"
+    >
+      <form>
+        <div>
+          <label
+            for="task"
+          >
+            Task: 
+          </label>
+          <input
+            class="task"
+            name="task"
+            placeholder="Enter your task"
+            type="text"
+            value=""
+          />
+        </div>
+        <button
+          class="subBtn"
+        >
+          Add!
+        </button>
+      </form>
+    </div>
+    <div
+      class="item"
+    >
+      <p
+        class="task"
+      >
+        you can delete the task by pushing the X
+      </p>
+      <button
+        class="delBtn"
+      >
+        X
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

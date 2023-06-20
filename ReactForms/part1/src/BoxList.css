@@ -1,0 +1,21 @@
+.boxContainer {
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.singleBox {
+  width: 1000px;
+  margin: 5px 5px 0px 5px;
+}
+.boxForm {
+  margin-bottom: 10px;
+}
+.boxForm label {
+  padding-right: 5px;
+  font-size: 20px;
+}
+.boxForm button {
+  font-size: 25px;
+  margin: 5px;
+}
